@@ -1,4 +1,4 @@
-v = {
+{
 	"Toggle navigation": "Navigáció állítása",
 	"Users": "Felhasználók",
 	"New": "Új",
