@@ -174,5 +174,9 @@
 	"Previous versions": "Előző verzió",
 	"Topic": "Téma",
 	"Suggestion successfully processed": "Kérés ellenőrizve",
-	"Style": "Stílus"
+	"Style": "Stílus",
+	"Visible state": "Visible state",
+	"Public": "Public",
+	"Private": "Private",
+	"Filtered term": "Filtered term"
 }
