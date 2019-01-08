@@ -53,7 +53,7 @@ $(document).ready(function(){
                             $('#searchResult').addClass('hidden');
                         }else{
                             $('.searchResultList').empty();
-                            $('.searchResultList').append('<li class="list-group-item list-group-heading">Search results</li>');
+                            $('.searchResultList').append('<li class="list-group-item list-group-heading">Találatok</li>');
                             $.each(response, function(key, value){
                                 var faqLink = value.kb_permalink;
                                 if(typeof faqLink === 'undefined' || faqLink === ''){

@@ -178,5 +178,7 @@
 	"Visible state": "Visible state",
 	"Public": "Public",
 	"Private": "Private",
-	"Filtered term": "Filtered term"
+	"Filtered term": "Keresett szó",
+	"Unexpected token _ in JSON at position 1330": "Unexpected token _ in JSON at position 1330",
+	"Parse error on line 95:\n...{result.kb_seo_title}}} t {{result.kb_ti\n-----------------------^\nExpecting 'CLOSE', 'OPEN_SEXPR', 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE_UNESCAPED'": "Parse error on line 95:\n...{result.kb_seo_title}}} t {{result.kb_ti\n-----------------------^\nExpecting 'CLOSE', 'OPEN_SEXPR', 'ID', 'STRING', 'NUMBER', 'BOOLEAN', 'UNDEFINED', 'NULL', 'DATA', got 'CLOSE_UNESCAPED'"
 }
