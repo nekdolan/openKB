@@ -1,6 +1,9 @@
 var path = require('path');
 var fs = require('fs');
 var lunr = require('lunr');
+require("lunr-languages/lunr.stemmer.support")(lunr);
+require("lunr-languages/lunr.hu")(lunr);
+require("lunr-unicode-normalizer")(lunr);
 var sanitizeHtml = require('sanitize-html');
 
 exports.clear_session_value = function (session, session_var){

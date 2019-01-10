@@ -7,6 +7,9 @@ var common = require('./common');
 var _ = require('lodash');
 var mime = require('mime-types');
 var lunr = require('lunr');
+require("lunr-languages/lunr.stemmer.support")(lunr);
+require("lunr-languages/lunr.hu")(lunr);
+require("lunr-unicode-normalizer")(lunr);
 var config = common.read_config();
 
 var appDir = path.dirname(require('require-main-filename')());
