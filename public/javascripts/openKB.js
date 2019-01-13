@@ -16,7 +16,7 @@ $(document).ready(function(){
 
     // add the table class to all tables
     $('table').each(function(){
-        $(this).addClass('table table-hover');
+        $(this).addClass('table table-hover').wrap('<div class="table-responsive"></div>');
     });
 
     // When the version dropdown changes
